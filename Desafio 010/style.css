@@ -1,0 +1,153 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family:'idroid';
+    src: url(fonts/idroid.otf) format('opentype');
+}
+
+
+#titulohead {
+    font-family:'Bebas Neue', cursive;
+    font-size: 48px;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.452);
+}
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom, #479C5D, #183D1E);
+    color: white;
+    padding: 12px;
+    padding-bottom: -10px;
+    margin: -8px;
+    text-align: center;
+    font-size: 12px;
+}
+
+#h2head {
+    width: 600px;
+    margin: auto;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.452);
+}
+
+#nav {
+    font-size: 16px;
+    font-weight: bold;
+    color: #A6EAC4;
+    text-align: left;
+    padding: 45px 0px 0px 0px;
+    margin-left: -13px;
+}
+
+nav > a {
+    color: #a6eac3f1;
+    font-style: normal;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+nav > a:hover {
+    background-color: #4DA866;
+    color: #183D1E;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+body {
+    background-color: #EBE5C5;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 20px;
+    text-align: justify;
+}
+
+article {
+    background-color: white;
+    width: 1000px;
+    margin: 8px 80px;
+    padding: 10px 15px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.486);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.fonth1 {
+    font-family: 'idroid', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.8em;
+    color: #183D1E;
+    text-indent: 0px;
+}
+
+.fonth2 {
+    font-family: 'idroid', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.3em;
+    background-image: linear-gradient(to right, #A2E9C1, #C5F1D9, #F5FDF9);
+    color: #275C37;
+    text-indent: 0px;
+    padding-left: 5px;
+}
+
+img {
+    width: 1000px;
+}
+
+#imgbug {
+    width: 300px;
+    margin-left: 350px;
+}
+
+#video {
+    background-color: #183D1E;
+    padding: 50px 50px 50px 50px;
+    margin: 0px -16px 0px -16px;
+}
+
+.nomes {
+    background-color: #83E1AD;
+    color: #275C37;
+    font-weight: bold;
+    padding: 3px;
+    text-decoration: none;
+}
+
+.nomes:hover {
+    color: #327546;
+    text-decoration: underline;
+}
+
+.nomes::after {
+    content: ' 🔗';
+}
+
+span {
+    color: #275C37;
+    font-weight: bold;
+}
+
+#lista {
+    background-color: #83E1AD;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+#lista > h2 {
+    background-color: #275C37;
+    color: white;
+    padding: 7px 0px 7px 0px;
+    margin-left: -10px;
+    font-size: 1.3em;
+    width: 1000px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#final {
+    padding: 5px;
+}
+
+footer {
+    background-color: #183D1E;
+    color: white;
+    text-align: center;
+    width: 1220px;
+}
